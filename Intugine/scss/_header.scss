@@ -1,0 +1,41 @@
+body{
+        font-family: "Nunito", sans-serif;
+}
+.navbar{
+    height:64px;
+    padding:0px 16px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar-nav .nav-item .nav-link .usericon{
+    width:28px;
+    height:28px;
+    padding-top:1px;
+    padding-left:7px;
+    border-radius:50%;
+    float:left;
+    margin-right:8px;
+    
+    background-color:#D1D0D0;
+}
+.navbar-nav .active{
+    background-color:#F3FBFC;
+}
+.navbar-nav{
+    min-height:64px;
+}
+.navbar-nav .nav-item{
+    line-height:64px;
+}
+.navbar-nav .nav-item .nav-link{
+    padding:0px 8px;
+    color:#000000;
+    font-weight:bold;
+}
+.fa-circle{
+    color:#D1D0D0;
+    }
+.fa-user,.fa-flag,.fa-warehouse{
+    color:#000000!important;
+}

@@ -1,0 +1,151 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+.pill{
+	margin-top:80px;
+	.nav-pills{
+		a{
+			
+			background: #0000ff1f;
+		}
+		.nav-item{
+			margin:12px;
+			.txt{
+				h2{
+					margin: 22px 17px 2px 17px;
+    				
+				}
+			}
+			.txt1{
+				color:#0000ff99;
+				h2{
+					margin: 22px 17px 2px 17px;
+				}
+			}
+		}
+	}
+}
+.col-md-8, .leftcol{
+	border:2px solid #0000ff3d;
+}
+.col-md-8{
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px  #0000ff99; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #0000ff9e; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #0000ff99; 
+  }
+.tbl{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 475px;
+   }
+   thead{
+	   th{
+		font-size: 11px;
+		color: #ccc;
+		letter-spacing: 1px
+	   }
+	   .fa1{
+	   font-size: 10px;
+	    color: #0000ffad;
+	    font-weight: 100;
+	    margin-left: 2px;
+		   }
+   }
+   tbody{
+	tr:nth-child(odd){
+		border: 2px solid #dddddd40;
+		
+		th{
+			
+		}
+		.td1{
+			text-decoration: overline;
+			text-decoration-color: #0000ff3d;
+		}
+		td{	
+			padding:20px;
+			font-size: 13px;
+		    font-weight: 400;
+			color: #000000eb;
+			.green1{
+				color:#2bcc2b!important;
+				}
+		}
+	   }
+   }	
+}
+.table td, .table th {
+	padding: 0.5rem;}
+
+	.track_tbl td.track_dot {
+    width: 50px;
+    position: relative;
+    padding: 0;
+    text-align: center;
+	
+}
+.track_tbl td.track_dot:after {
+    content: "\f111";
+    font-family: FontAwesome;
+    position: absolute;
+    margin-left: -3.5px;
+	margin-top:2px;
+    top: 11px;
+	z-index:-1;
+	color:#3fb5db;
+	text-shadow: 2px 2px 5px #3fb5db;
+	
+}
+.track_tbl tbody td{
+	padding:6px;
+}
+
+.track_tbl td.track_dot span.track_line {
+     min-height: 75px;
+    position: absolute;
+   
+	z-index:-1;
+	border: 1px dashed #3fb5db;
+    border-style: dashed;
+}
+.track_tbl td.track_dot1 span.track_line1 {
+    
+    min-width: 42px;
+    position: absolute;
+ 	z-index:-1;
+	border: 1px solid #3fb5db;
+    margin-top:15px;
+	margin-left:-30px;
+}
+
+.track_tbl tbody tr:first-child td.track_dot span.track_line {
+    top: 30px;
+    min-height: 33px;
+}
+.track_tbl tbody tr:last-child td.track_dot span.track_line {
+    top: 0;
+    min-height: 25px;
+    height: 10%;
+}
+.track_tbl >tbody >tr> td{
+	border-top:none !important;
+	font-size:12px;
+}
+	
+
+	
